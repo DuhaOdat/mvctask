@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    @{
+        ViewBag.Title = "Home Page";
+    }
+
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Our Hospital</h1>
+        <p class="lead">We provide the best medical services in the region.</p>
+        <hr class="my-4">
+        <p>Contact us for more information.</p>
+        <a class="btn btn-primary btn-lg" href="@Url.Action("Contact", "Home")" role="button">Contact Us</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of medical services to meet your needs.</p>
+            <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+        </div>
+        <div class="col-md-4">
+            <h2>Our Doctors</h2>
+            <p>Our team of experienced doctors are here to provide the best care.</p>
+            <a class="btn btn-secondary" href="#" role="button">Meet our team &raquo;</a>
+        </div>
+        <div class="col-md-4">
+            <h2>Contact Us</h2>
+            <p>Have questions? Get in touch with us.</p>
+            <a class="btn btn-secondary" href="@Url.Action("Contact", "Home")" role="button">Contact &raquo;</a>
+        </div>
+    </div>
+
+</main>
