@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<main>
+   
+    <div class="container mt-5 ">
+
+        <h3>Contact Form</h3>
+        @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+        {
+            <!-- Number Input -->
+            <label for="id" class="form-label">ID:</label>
+            <input type="text" class="form-control" id="id" name="id" required>
+
+            <!-- Text Input -->
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+
+
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+
+            <!-- Radio Buttons -->
+            <label>gender:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="genderMale" value="male" required>
+                <label class="form-check-label" for="genderMale">
+                    Male
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="female" required>
+                <label class="form-check-label" for="genderFemale">
+                    Female
+                </label>
+            </div>
+
+            <!-- Dropdown Multiple -->
+            <div class="mb-3">
+                <label for="courses" class="form-label">Select The languages You Learned</label>
+              
+                <select class="form-select" name="courses">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C#">C#</option>
+                </select>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary ">Submit</button>
+        }
+    </div>
+
+           
+</main>
