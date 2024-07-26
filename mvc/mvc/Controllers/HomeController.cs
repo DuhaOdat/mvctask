@@ -28,14 +28,9 @@ namespace mvc.Controllers
         }
         public ActionResult doctors()
         {
-            var doctors = new List<Doctor>
-        {
-            new Doctor { Name = "Dr. John Doe", Specialty = "Cardiologist"},
-            new Doctor { Name = "Dr. Jane Smith", Specialty = "Neurologist" },
-            new Doctor { Name = "Dr. Emily Davis", Specialty = "Pediatrician"}
-        };
+            
 
-            return View(doctors);
+            return View();
         }
 
 

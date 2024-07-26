@@ -1,6 +1,9 @@
 ﻿
 @{
     ViewBag.Title = "doctors";
+    var dNames = new List<string> { "Duha", "luna", " Ayla" };
+
+
 }
 
 
@@ -10,14 +13,14 @@
 <div class="container">
     <h1 class="my-4">Meet Our Doctors</h1>
     <div class="row">
-        @foreach (var doctor in Model)
+        @foreach (var item in dNames)
         {
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card h-100">
-                   
+
                     <div class="card-body">
-                        <h4 class="card-title">@doctor.Name</h4>
-                        <p class="card-text">@doctor.Specialty</p>
+                        <h4 class="card-title">@item</h4>
+
                     </div>
                 </div>
             </div>
