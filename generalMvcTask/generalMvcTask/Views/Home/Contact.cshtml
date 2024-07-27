@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+    @using(Html.BeginForm() )
+    { 
+    <h1 class="mx-auto my-4 text-center">Please Inter Your Information</h1>
+    <main class="border mx-auto my-4 px-3 py-3" px style="width: 600px; height:95%">
+
+        <div class="form-group">
+            <label for="exampleFormControlInput2">ID:</label>
+            <input type="number" class="form-control" name="id">
+        </div><br />
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name:</label>
+            <input type="text" class="form-control" name="name">
+        </div><br />
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email:</label>
+            <input type="email" class="form-control" name="email">
+        </div><br />
+
+        <div class="form-group">
+            <label>Gender: &nbsp;</label>
+            <input type="radio" name="gender" value="male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="female">
+            <label>Female</label>
+        </div><br />
+
+              <div class="form-group">
+                  <label for="exampleFormControlInput1">Message:</label>
+                  <textarea class="form-control" name="message"></textarea>
+              </div>
+
+
+            <br><br>
+
+            <button data-mdb-ripple-init type="submit" class="btn btn-primary">Submit</button>
+    </main>
+        }
+@if (Session["name"] != null)
+{
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row"> @Session["id"]</th>
+            <td> @Session["name"]</td>
+            <td> @Session["email"]</td>
+            <td> @Session["gender"]</td>
+            <td> @Session["message"]</td>
+        </tr>
+    </tbody>
+</table>
+}
+
+
