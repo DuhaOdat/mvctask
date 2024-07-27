@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\source\\repos\\DatabaseFirstTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E44DC57-FC08-4187-ADB2-9D9745EA412C}|DatabaseFirstTask\\DatabaseFirstTask.csproj|c:\\users\\orange\\source\\repos\\databasefirsttask\\databasefirsttask\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E44DC57-FC08-4187-ADB2-9D9745EA412C}|DatabaseFirstTask\\DatabaseFirstTask.csproj|solutionrelative:databasefirsttask\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E44DC57-FC08-4187-ADB2-9D9745EA412C}|DatabaseFirstTask\\DatabaseFirstTask.csproj|c:\\users\\orange\\source\\repos\\databasefirsttask\\databasefirsttask\\models\\productsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{5E44DC57-FC08-4187-ADB2-9D9745EA412C}|DatabaseFirstTask\\DatabaseFirstTask.csproj|solutionrelative:databasefirsttask\\models\\productsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\DatabaseFirstTask\\DatabaseFirstTask\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstTask\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\DatabaseFirstTask\\DatabaseFirstTask\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DatabaseFirstTask\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T09:13:19.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\DatabaseFirstTask\\DatabaseFirstTask\\Models\\ProductsModel.edmx",
+              "RelativeDocumentMoniker": "DatabaseFirstTask\\Models\\ProductsModel.edmx",
+              "ToolTip": "C:\\Users\\Orange\\source\\repos\\DatabaseFirstTask\\DatabaseFirstTask\\Models\\ProductsModel.edmx [Diagram1]",
+              "RelativeToolTip": "DatabaseFirstTask\\Models\\ProductsModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-27T09:12:13.161Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
